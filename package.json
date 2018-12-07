@@ -7,7 +7,8 @@
     "build": "webpack",
     "watch": "webpack --watch",
     "start": "webpack-dev-server --open",
-    "build:prod": "webpack -p"
+    "build:prod": "webpack -p",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
@@ -28,6 +29,7 @@
   "dependencies": {
     "@types/chance": "^1.0.1",
     "chance": "^1.0.17",
+    "gh-pages": "^2.0.1",
     "reset-css": "^4.0.1"
   }
 }
